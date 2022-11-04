@@ -16,9 +16,8 @@ function achartempo (dataConv){
     return x.getTime()
 }
 if (achartempo(dataC1) > achartempo(dataC2)){
-    console.log(dataU1)
+    console.log(dataU1 + " é a data mais recente.")
 }
 else{
-    console.log(dataU2)
+    console.log(dataU2 + " é a data mais recente." )
 }
-
